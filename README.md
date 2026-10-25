@@ -23,11 +23,11 @@ The project demonstrates fundamental data analysis skills, including data loadin
 
 ## Technologies Used
 
-- **Python** — core programming language
-- **Pandas** — data loading, DataFrame manipulation, filtering, and aggregation
-- **NumPy** — numerical calculations and statistical analysis
-- **Google Colab** — cloud-based Python development environment
-- **GitHub** — source code management and project documentation
+- **Python** — Core programming language
+- **Pandas** — Data loading, validation, filtering, calculations, sorting, and exporting CSV files.
+- **NumPy** — Numerical calculations and statistical analysis
+- **Google Colab** — Cloud-based Python development environment
+- **GitHub** — Source code management and project documentation
 
 ## Dataset Description
 
@@ -72,12 +72,6 @@ The project follows a step-by-step data analysis process using Python, Pandas, a
 
 10. **Final Reporting and Export:** Generated a final performance summary, ranked the top five students, and exported the processed results into separate CSV files.
 
-### Tools and Technologies
-
-- **Python:** Variables, data types, lists, loops, functions, and conditional statements.
-- **Pandas:** Data loading, validation, filtering, calculations, sorting, and exporting CSV files.
-- **NumPy:** Statistical calculations and numerical analysis.
-- **Google Colab:** Cloud-based Python development environment.
 
 ### Expected Outcome
 
