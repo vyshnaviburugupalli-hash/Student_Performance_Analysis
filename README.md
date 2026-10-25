@@ -48,7 +48,7 @@ The dataset includes the following fields:
 
 Subject marks and attendance are expected to be numeric values between 0 and 100.
 
-## 🔬 Project Methodology
+##  Project Methodology
 
 The project follows a step-by-step data analysis process using Python, Pandas, and NumPy.
 
@@ -76,7 +76,7 @@ The project follows a step-by-step data analysis process using Python, Pandas, a
 ### Expected Outcome
 
 The project provides insights into student academic performance, subject-wise strengths and weaknesses, pass/fail rates, grade distribution, and attendance. It demonstrates a basic end-to-end data analysis workflow, from loading and validating raw data to generating useful reports.
-### 5. Results Export
+###  Results Export
 
 The processed student results and summary analyses are exported to CSV files for further analysis and reporting.
 
