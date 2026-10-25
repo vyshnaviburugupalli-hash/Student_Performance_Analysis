@@ -48,33 +48,40 @@ The dataset includes the following fields:
 
 Subject marks and attendance are expected to be numeric values between 0 and 100.
 
-## Project Methodology
+## 🔬 Project Methodology
 
-### 1. Data Loading and Inspection
+The project follows a step-by-step data analysis process using Python, Pandas, and NumPy.
 
-The CSV file is loaded into a Pandas DataFrame. The dataset is inspected using functions such as `head()`, `info()`, `describe()`, and `isnull().sum()`.
+1. **Data Collection:** Uploaded and loaded `Student_data.csv` into Google Colab using Pandas.
 
-### 2. Data Validation
+2. **Data Exploration:** Examined the dataset, column names, first five records, and dataset dimensions to understand the data structure.
 
-The project checks for missing or non-numeric values, duplicate student IDs, and marks or attendance outside the valid range.
+3. **Data Validation:** Checked for missing values, non-numeric values, duplicate student IDs, and invalid marks or attendance percentages.
 
-### 3. Data Processing
+4. **Feature Engineering:** Calculated each student's total marks, average marks, grade, and pass/fail status.
 
-Reusable Python functions calculate total marks, average marks, grades, and pass/fail results. Loops and conditional statements are used to process student records and evaluate individual subjects.
+5. **Student Performance Analysis:** Calculated the overall class average, median, highest and lowest averages, and standard deviation. Identified the top-performing and lowest-performing students.
 
-### 4. Academic Performance Analysis
+6. **Pass/Fail Analysis:** Calculated the number and percentage of students who passed or failed based on the individual subject marks.
 
-Pandas and NumPy are used to calculate:
+7. **Subject-Wise Analysis:** Calculated average, highest, and lowest marks for each subject and identified the top-performing student in each subject.
 
-- Overall class average
-- Highest and lowest student averages
-- Median and standard deviation of student averages
-- Subject-wise average, maximum, and minimum marks
-- Pass and fail counts and percentages
-- Top five students
-- Grade distribution
-- Average attendance and students with attendance below 75%
+8. **Grade Distribution:** Counted students in each grade category (A, B, C, D, and F).
 
+9. **Attendance Analysis:** Calculated average attendance and identified students with attendance below 75%.
+
+10. **Final Reporting and Export:** Generated a final performance summary, ranked the top five students, and exported the processed results into separate CSV files.
+
+### Tools and Technologies
+
+- **Python:** Variables, data types, lists, loops, functions, and conditional statements.
+- **Pandas:** Data loading, validation, filtering, calculations, sorting, and exporting CSV files.
+- **NumPy:** Statistical calculations and numerical analysis.
+- **Google Colab:** Cloud-based Python development environment.
+
+### Expected Outcome
+
+The project provides insights into student academic performance, subject-wise strengths and weaknesses, pass/fail rates, grade distribution, and attendance. It demonstrates a basic end-to-end data analysis workflow, from loading and validating raw data to generating useful reports.
 ### 5. Results Export
 
 The processed student results and summary analyses are exported to CSV files for further analysis and reporting.
